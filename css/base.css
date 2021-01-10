@@ -1,0 +1,73 @@
+body
+{
+
+    background: rgb(40,12,65);
+    background: linear-gradient(90deg, rgba(40,12,65,1) 0%, rgba(65,9,39,1) 100%);
+    height: 100%;
+}
+.header
+{
+    min-width: 600px;
+    width: 70%;
+
+    height: 200px;
+    margin: 30px auto auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50px;
+
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(000,000,000,0.3);
+    text-align: center;
+   overflow: hidden;
+}
+.header h1
+{
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 64px;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 4px;
+    margin-top: 0;
+    margin-bottom: 22px;
+    overflow: hidden;
+
+}
+.header:hover {background-color: rgba(255,255,255,0.55);}
+
+.navbar
+{
+    display: inline-flex;
+    background: rgb(47,166,198);
+    background: linear-gradient(90deg, rgba(47,166,198,1) 0%, rgba(168,135,42,1) 100%);
+}
+.navitem
+{
+    font-size: 26px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    padding: 10px;
+
+
+    background-color: rgba(200,200,200,1);
+
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+.navitem a
+{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(000,000,000,0.3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.navitem:hover
+{
+    background-color: rgba(200,200,200,0);
+}
